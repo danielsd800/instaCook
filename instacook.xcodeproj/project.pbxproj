@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65BC61E01E38BDE6007FACB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BC61DF1E38BDE6007FACB9 /* AppDelegate.swift */; };
+		65BC61E21E38BDE6007FACB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BC61E11E38BDE6007FACB9 /* ViewController.swift */; };
+		65BC61E51E38BDE6007FACB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BC61E31E38BDE6007FACB9 /* Main.storyboard */; };
+		65BC61E71E38BDE6007FACB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BC61E61E38BDE6007FACB9 /* Assets.xcassets */; };
+		65BC61EA1E38BDE6007FACB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BC61E81E38BDE6007FACB9 /* LaunchScreen.storyboard */; };
+		65BC61F51E38BDE6007FACB9 /* instacookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BC61F41E38BDE6007FACB9 /* instacookTests.swift */; };
+		65BC62001E38BDE6007FACB9 /* instacookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BC61FF1E38BDE6007FACB9 /* instacookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65BC61F11E38BDE6007FACB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65BC61D41E38BDE6007FACB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65BC61DB1E38BDE6007FACB9;
+			remoteInfo = instacook;
+		};
+		65BC61FC1E38BDE6007FACB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65BC61D41E38BDE6007FACB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65BC61DB1E38BDE6007FACB9;
+			remoteInfo = instacook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65BC61DC1E38BDE6007FACB9 /* instacook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instacook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BC61DF1E38BDE6007FACB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65BC61E11E38BDE6007FACB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65BC61E41E38BDE6007FACB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65BC61E61E38BDE6007FACB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65BC61E91E38BDE6007FACB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65BC61EB1E38BDE6007FACB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65BC61F01E38BDE6007FACB9 /* instacookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instacookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BC61F41E38BDE6007FACB9 /* instacookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instacookTests.swift; sourceTree = "<group>"; };
+		65BC61F61E38BDE6007FACB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65BC61FB1E38BDE6007FACB9 /* instacookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instacookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BC61FF1E38BDE6007FACB9 /* instacookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instacookUITests.swift; sourceTree = "<group>"; };
+		65BC62011E38BDE6007FACB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65BC61D91E38BDE6007FACB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65BC61ED1E38BDE6007FACB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65BC61F81E38BDE6007FACB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65BC61D31E38BDE6007FACB9 = {
+			isa = PBXGroup;
+			children = (
+				65BC61DE1E38BDE6007FACB9 /* instacook */,
+				65BC61F31E38BDE6007FACB9 /* instacookTests */,
+				65BC61FE1E38BDE6007FACB9 /* instacookUITests */,
+				65BC61DD1E38BDE6007FACB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65BC61DD1E38BDE6007FACB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65BC61DC1E38BDE6007FACB9 /* instacook.app */,
+				65BC61F01E38BDE6007FACB9 /* instacookTests.xctest */,
+				65BC61FB1E38BDE6007FACB9 /* instacookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65BC61DE1E38BDE6007FACB9 /* instacook */ = {
+			isa = PBXGroup;
+			children = (
+				65BC61DF1E38BDE6007FACB9 /* AppDelegate.swift */,
+				65BC61E11E38BDE6007FACB9 /* ViewController.swift */,
+				65BC61E31E38BDE6007FACB9 /* Main.storyboard */,
+				65BC61E61E38BDE6007FACB9 /* Assets.xcassets */,
+				65BC61E81E38BDE6007FACB9 /* LaunchScreen.storyboard */,
+				65BC61EB1E38BDE6007FACB9 /* Info.plist */,
+			);
+			path = instacook;
+			sourceTree = "<group>";
+		};
+		65BC61F31E38BDE6007FACB9 /* instacookTests */ = {
+			isa = PBXGroup;
+			children = (
+				65BC61F41E38BDE6007FACB9 /* instacookTests.swift */,
+				65BC61F61E38BDE6007FACB9 /* Info.plist */,
+			);
+			path = instacookTests;
+			sourceTree = "<group>";
+		};
+		65BC61FE1E38BDE6007FACB9 /* instacookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65BC61FF1E38BDE6007FACB9 /* instacookUITests.swift */,
+				65BC62011E38BDE6007FACB9 /* Info.plist */,
+			);
+			path = instacookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65BC61DB1E38BDE6007FACB9 /* instacook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65BC62041E38BDE6007FACB9 /* Build configuration list for PBXNativeTarget "instacook" */;
+			buildPhases = (
+				65BC61D81E38BDE6007FACB9 /* Sources */,
+				65BC61D91E38BDE6007FACB9 /* Frameworks */,
+				65BC61DA1E38BDE6007FACB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instacook;
+			productName = instacook;
+			productReference = 65BC61DC1E38BDE6007FACB9 /* instacook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65BC61EF1E38BDE6007FACB9 /* instacookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65BC62071E38BDE6007FACB9 /* Build configuration list for PBXNativeTarget "instacookTests" */;
+			buildPhases = (
+				65BC61EC1E38BDE6007FACB9 /* Sources */,
+				65BC61ED1E38BDE6007FACB9 /* Frameworks */,
+				65BC61EE1E38BDE6007FACB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65BC61F21E38BDE6007FACB9 /* PBXTargetDependency */,
+			);
+			name = instacookTests;
+			productName = instacookTests;
+			productReference = 65BC61F01E38BDE6007FACB9 /* instacookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65BC61FA1E38BDE6007FACB9 /* instacookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65BC620A1E38BDE6007FACB9 /* Build configuration list for PBXNativeTarget "instacookUITests" */;
+			buildPhases = (
+				65BC61F71E38BDE6007FACB9 /* Sources */,
+				65BC61F81E38BDE6007FACB9 /* Frameworks */,
+				65BC61F91E38BDE6007FACB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65BC61FD1E38BDE6007FACB9 /* PBXTargetDependency */,
+			);
+			name = instacookUITests;
+			productName = instacookUITests;
+			productReference = 65BC61FB1E38BDE6007FACB9 /* instacookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65BC61D41E38BDE6007FACB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Daniel Yonit";
+				TargetAttributes = {
+					65BC61DB1E38BDE6007FACB9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					65BC61EF1E38BDE6007FACB9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65BC61DB1E38BDE6007FACB9;
+					};
+					65BC61FA1E38BDE6007FACB9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65BC61DB1E38BDE6007FACB9;
+					};
+				};
+			};
+			buildConfigurationList = 65BC61D71E38BDE6007FACB9 /* Build configuration list for PBXProject "instacook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65BC61D31E38BDE6007FACB9;
+			productRefGroup = 65BC61DD1E38BDE6007FACB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65BC61DB1E38BDE6007FACB9 /* instacook */,
+				65BC61EF1E38BDE6007FACB9 /* instacookTests */,
+				65BC61FA1E38BDE6007FACB9 /* instacookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65BC61DA1E38BDE6007FACB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BC61EA1E38BDE6007FACB9 /* LaunchScreen.storyboard in Resources */,
+				65BC61E71E38BDE6007FACB9 /* Assets.xcassets in Resources */,
+				65BC61E51E38BDE6007FACB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65BC61EE1E38BDE6007FACB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65BC61F91E38BDE6007FACB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65BC61D81E38BDE6007FACB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BC61E21E38BDE6007FACB9 /* ViewController.swift in Sources */,
+				65BC61E01E38BDE6007FACB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65BC61EC1E38BDE6007FACB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BC61F51E38BDE6007FACB9 /* instacookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65BC61F71E38BDE6007FACB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BC62001E38BDE6007FACB9 /* instacookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65BC61F21E38BDE6007FACB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65BC61DB1E38BDE6007FACB9 /* instacook */;
+			targetProxy = 65BC61F11E38BDE6007FACB9 /* PBXContainerItemProxy */;
+		};
+		65BC61FD1E38BDE6007FACB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65BC61DB1E38BDE6007FACB9 /* instacook */;
+			targetProxy = 65BC61FC1E38BDE6007FACB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65BC61E31E38BDE6007FACB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65BC61E41E38BDE6007FACB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65BC61E81E38BDE6007FACB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65BC61E91E38BDE6007FACB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65BC62021E38BDE6007FACB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65BC62031E38BDE6007FACB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65BC62051E38BDE6007FACB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = instacook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = finalproject.instacook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65BC62061E38BDE6007FACB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = instacook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = finalproject.instacook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		65BC62081E38BDE6007FACB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = instacookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = finalproject.instacookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instacook.app/instacook";
+			};
+			name = Debug;
+		};
+		65BC62091E38BDE6007FACB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = instacookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = finalproject.instacookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instacook.app/instacook";
+			};
+			name = Release;
+		};
+		65BC620B1E38BDE6007FACB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = instacookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = finalproject.instacookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = instacook;
+			};
+			name = Debug;
+		};
+		65BC620C1E38BDE6007FACB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = instacookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = finalproject.instacookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = instacook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65BC61D71E38BDE6007FACB9 /* Build configuration list for PBXProject "instacook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65BC62021E38BDE6007FACB9 /* Debug */,
+				65BC62031E38BDE6007FACB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65BC62041E38BDE6007FACB9 /* Build configuration list for PBXNativeTarget "instacook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65BC62051E38BDE6007FACB9 /* Debug */,
+				65BC62061E38BDE6007FACB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65BC62071E38BDE6007FACB9 /* Build configuration list for PBXNativeTarget "instacookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65BC62081E38BDE6007FACB9 /* Debug */,
+				65BC62091E38BDE6007FACB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65BC620A1E38BDE6007FACB9 /* Build configuration list for PBXNativeTarget "instacookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65BC620B1E38BDE6007FACB9 /* Debug */,
+				65BC620C1E38BDE6007FACB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65BC61D41E38BDE6007FACB9 /* Project object */;
+}
